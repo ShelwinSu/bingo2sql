@@ -23,6 +23,7 @@ MySQL Binlog 解析工具
 ### 支持模式
 
 #### 1. 本地解析
+  经过测试，可以恢复最新的MySQL8.0.22 版本下的数据误删除恢复。
 ```sh
 bingo2sql --start-file=~/db_cmdb/blog/mysql-bin.000001 -t table.sql
 ```
